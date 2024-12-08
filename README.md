@@ -2,7 +2,7 @@
 
 Repositório dedicado a registrar minha curva de aprendizado em JavaScript, com projetos realizados para fixação de conteúdo e aplicação prática.
 
-## Site com Proojetos 
+## Site com Projetos 
  - [WebSite Index](https://ramos902.github.io/Javascript-Learn/)
 
 
