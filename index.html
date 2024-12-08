@@ -6,36 +6,72 @@
     <title>Índice do Repositório</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 90%;
         }
         h1 {
-            color: #333;
+            color: #007BFF;
+            margin-bottom: 20px;
         }
-        ul {
-            list-style-type: none;
+        p {
+            margin-bottom: 20px;
+            font-size: 1rem;
+            color: #555;
+        }
+        .projects-list {
+            list-style: none;
             padding: 0;
         }
-        li {
+        .projects-list li {
             margin: 10px 0;
         }
-        a {
+        .projects-list a {
             text-decoration: none;
-            color: #007BFF;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+        .projects-list a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
-    <h1>Bem-vindo ao meu Repositório</h1>
-    <p>Escolha um dos projetos abaixo para navegar diretamente:</p>
-    <ul>
-        <li><a href="./Calculator">Projeto 1 - Calculadora</a></li>
-        <li><a href="./projeto2">Projeto 2 - To-Do List (In Progress)</a></li>
-        <li><a href="./projeto3">Projeto 3 - Jogo da Memória (In Progress)</a></li>
-    </ul>
+    <div class="container">
+        <h1>Bem-vindo ao Repositório</h1>
+        <p>Selecione um projeto abaixo para navegar diretamente:</p>
+        <ul class="projects-list">
+            <li><a href="./Calculator">Projeto 1 - Calculadora</a></li>
+            <li><a href="./projeto2">Projeto 2 - To-Do List (In Progress)</a></li>
+            <li><a href="./projeto3">Projeto 3 - Jogo da Memória (In Progress)</a></li>
+        </ul>
+        <footer>
+            &copy; 2024 | Desenvolvido por Ramos
+        </footer>
+    </div>
 </body>
 </html>
