@@ -8,4 +8,7 @@ Repositório dedicado a registrar minha curva de aprendizado em JavaScript, com 
 
 ### Calculadora
  - [CalculatorProject](./Calculator/index.html)
+### To-Do List
+ - [CalculatorProject](./ToDo-List/index.html)
+
 
