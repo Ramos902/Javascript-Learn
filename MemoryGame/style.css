@@ -1,0 +1,11 @@
+body.d-flex{
+    height: 100vh;
+    background-color: #6457A6;
+}
+main{
+    background-color: #76E5FC;
+}
+
+.col{
+    height: 50px;
+}
