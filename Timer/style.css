@@ -1,0 +1,10 @@
+main{
+    background-color: pink;
+    width: 300px;
+}
+.button-pause{
+    display: none;
+}
+.button-resume{
+    display: none;
+}
