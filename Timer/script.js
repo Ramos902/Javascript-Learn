@@ -43,7 +43,7 @@ buttonReset.addEventListener('click', () => {
     milisecondsCount = 0;
     isPaused = false;
 
-    miliseconds.textContent = "00";
+    miliseconds.textContent = "000";
     seconds.textContent = "00";
     minutes.textContent = "00";
 
